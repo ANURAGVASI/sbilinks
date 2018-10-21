@@ -33,7 +33,7 @@ app.get("/:customerid", (req,res,next) => {
             console.log('saved to DB');
         }
         res.write("redirecting..");
-        res.redirect("https://www.onlinesbi.com/");
+        res.redirect("https://www.sbiyono.sbi/app/");
     });
 
     
